@@ -19,5 +19,5 @@ mkdir -p $HOME/.backgrounds
 # this command will overwrite the image if it already exists
 wget -q -O $HOME/.backgrounds/$img_name $img_url
  
-feh --bg-scale $HOME/.backgrounds/$img_name
+feh --bg-fill $HOME/.backgrounds/$img_name
 
